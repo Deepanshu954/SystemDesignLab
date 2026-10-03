@@ -8,3 +8,7 @@ frontend/node_modules
 frontend/.next
 backend/target
 *.log
+*.zip
+*.tar
+*.tar.gz
+
