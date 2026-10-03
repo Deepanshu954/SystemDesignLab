@@ -1,0 +1,10 @@
+.git
+.github
+.ai
+.agent_memory
+.DS_Store
+00_MASTER_PROJECT_PLAN.md
+frontend/node_modules
+frontend/.next
+backend/target
+*.log

@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: systemdesignlab-backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    plan: free
+    region: oregon
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: APP_JWT_SECRET
+        generateValue: true
+      - key: APP_CORS_ALLOWED_ORIGINS
+        value: "*"
+      - key: SPRING_DATASOURCE_URL
+        fromDatabase:
+          name: systemdesignlab-db
+          property: connectionString
+      - key: SPRING_DATASOURCE_USERNAME
+        fromDatabase:
+          name: systemdesignlab-db
+          property: user
+      - key: SPRING_DATASOURCE_PASSWORD
+        fromDatabase:
+          name: systemdesignlab-db
+          property: password
+
+databases:
+  - name: systemdesignlab-db
+    plan: free
+    region: oregon
+    databaseName: systemdesignlab
+    user: sdl_admin
