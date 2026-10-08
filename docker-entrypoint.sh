@@ -1,8 +1,13 @@
 #!/bin/bash
 set -e
 
+# Support direct command execution if custom arguments are passed (e.g. docker run seo bash)
+if [ "$#" -gt 0 ]; then
+    exec "$@"
+fi
+
 echo "=================================================="
-echo "   System Design Lab — All-in-One Container      "
+echo "   System Design Lab — Standalone All-in-One     "
 echo "=================================================="
 
 BACKEND_PORT="${BACKEND_PORT:-8080}"
@@ -120,7 +125,7 @@ FRONTEND_PID=$!
 
 echo "=================================================="
 echo "   All services running successfully!            "
-echo "   Public Port: ${PUBLIC_PORT}                   "
+echo "   Access Application: http://localhost:${PUBLIC_PORT} "
 echo "=================================================="
 
 wait "$FRONTEND_PID"
