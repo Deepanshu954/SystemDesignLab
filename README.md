@@ -73,6 +73,23 @@ docker-compose up -d --build
 
 ---
 
+## 📦 Single All-in-One Docker Image (Zero Config)
+
+Run the entire full-stack platform (PostgreSQL 16 + Spring Boot + Next.js with reverse proxy) from a **single self-contained Docker container**:
+
+```bash
+docker run -d -p 3000:3000 --name systemdesignlab deepanshu954/systemdesignlab:latest
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser. All API requests (`/api/v1/*`), health checks (`/actuator/health`), and Swagger docs (`/swagger-ui/*`) are handled automatically by the internal reverse proxy.
+
+### Docker Hub Repositories:
+- **All-in-One Image:** [`deepanshu954/systemdesignlab:latest`](https://hub.docker.com/r/deepanshu954/systemdesignlab)
+- **Backend Image:** [`deepanshu954/systemdesignlab-backend:latest`](https://hub.docker.com/r/deepanshu954/systemdesignlab-backend)
+- **Frontend Image:** [`deepanshu954/systemdesignlab-frontend:latest`](https://hub.docker.com/r/deepanshu954/systemdesignlab-frontend)
+
+---
+
 ## ☁️ Deploy to Render in 1 Click
 
 Click the button below to deploy the backend service and managed PostgreSQL database directly to Render using [`render.yaml`](./render.yaml):
