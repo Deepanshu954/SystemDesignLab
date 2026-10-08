@@ -1,20 +1,21 @@
 # CSET489: SEARCH ENGINE OPTIMIZATION & WEB STRATEGIES
 ## MILESTONE I: RESEARCH, ANALYSIS, PROJECT DESIGN & CLOUD DEPLOYMENT
-**Maximum Marks:** 20 Marks  
-**Submission Filename:** `CSET489_SEO_Assignment_[RollNo]_[YourName].pdf`  
+**Total Marks:** 20 Marks (10 Criteria × 2 Marks each)  
+**Required Submission Format:** Single PDF named `CSET489_SEO_Assignment_[RollNo]_[YourName].pdf`  
 
 ---
 
-### 📝 STUDENT & SUBMISSION METADATA
+### 📋 STUDENT & SUBMISSION METADATA
 - **Student Name:** [Your Full Name]
-- **Roll Number:** [Your Roll Number, e.g. 21BCS101]
-- **Course & Code:** Search Engine Optimization & Web Strategies (CSET489)
-- **Degree / Branch:** B.Tech Computer Science & Engineering
+- **Roll Number:** [Your Roll Number, e.g., 21BCS101]
+- **Course Name & Code:** Search Engine Optimization & Web Strategies (CSET489)
+- **Degree & Branch:** B.Tech Computer Science & Engineering
 - **Institution:** Bennett University / School of Computer Science Engineering & Technology
 - **Live Platform URL:** `https://system-design-lab-topaz.vercel.app`
-- **WordPress Hub URL:** `https://systemdesignlab.dev` (or your public Cloudflare URL)
+- **WordPress / Editorial Hub URL:** `https://systemdesignlab.dev` (or your public Cloudflare URL)
 - **GitHub Repository:** `https://github.com/Deepanshu954/SystemDesignLab`
-- **UpdraftPlus Public Backup Link (.zip):** `[INSERT_YOUR_GOOGLE_DRIVE_PUBLIC_LINK_HERE]`
+- **UpdraftPlus Public Backup Link (.zip):** `[INSERT_YOUR_COPIED_GOOGLE_DRIVE_PUBLIC_LINK_HERE]`  
+  *(Access Permission: "Anyone with the link can view/download")*
 
 ---
 
@@ -23,12 +24,12 @@
 ### 1.1 Selected Niche & Micro-Niche
 - **Broad Industry:** Computer Science Education & Career Preparation (EdTech).
 - **Defined Evergreen Niche:** System Design Architecture & High-Scalability Engineering.
-- **Micro-Niche:** Quantitative Back-of-the-Envelope Capacity Sizing & Interactive Distributed System Case Studies for Software Engineers (SDE-1 to Staff).
+- **Target Micro-Niche:** Quantitative Back-of-the-Envelope Capacity Sizing & Interactive Distributed System Case Studies for Software Engineers (SDE-1 to Staff).
 
-### 1.2 Target Audience Personas
-1. **Primary Persona (Rohit Sharma, 27, SDE-2):** Preparing for FAANG technical interviews; struggles with capacity math and server estimation. Search intent: Informational & Calculative.
-2. **Secondary Persona (Ananya Patel, 21, Final Year CS Student):** Needs foundational architectural intuition (HLD vs LLD, Caching strategies, Database Sharding). Search intent: Foundational Informational.
-3. **Tertiary Persona (David Miller, 36, Solutions Architect):** Quick reference for architectural trade-offs (Kafka vs RabbitMQ, Cassandra vs DynamoDB). Search intent: Commercial / Comparative.
+### 1.2 Target Audience Personas & Search Intent Patterns
+1. **Primary Persona (Rohit Sharma, 27, SDE-2):** Preparing for FAANG technical interviews; struggles with capacity math and server sizing. **Search Intent:** Informational & Calculative.
+2. **Secondary Persona (Ananya Patel, 21, Final Year CS Student):** Needs foundational architectural intuition (HLD vs LLD, Caching strategies, Database Sharding). **Search Intent:** Foundational Informational.
+3. **Tertiary Persona (David Miller, 36, Solutions Architect):** Quick reference for architectural trade-offs (Kafka vs RabbitMQ, Cassandra vs DynamoDB). **Search Intent:** Commercial / Comparative.
 
 ### 1.3 SEO Problem Statement & Data Justification (142 Words)
 > "A comprehensive search landscape audit reveals that current top-ranking System Design SERP results suffer from severe content stagnation, high bounce rates, and poor user satisfaction. Over **82% of top-ranking articles** (e.g., GeeksforGeeks, Medium) deliver static 'text walls' quoting outdated 2016 traffic benchmarks without actionable mathematical tooling. According to Google Trends, search queries for *'system design interview'* and *'capacity estimation'* have surged by **215% over the past 36 months**, reflecting surging search demand. However, searchers exhibit a **65% pogo-sticking rate** (returning immediately to the SERP) because existing articles lack interactive calculative utilities. Users are forced to manually compute QPS, bandwidth, and storage formulas on scratchpads. **System Design Lab** resolves this structural SEO deficiency by deploying interactive, client-side capacity calculators and structured 24-step architecture frameworks, dramatically increasing dwell time past 4.2 minutes and satisfying search intent at position zero."
@@ -38,36 +39,36 @@
 ## 2. Keyword Research & Search Intent (2 Marks)
 
 ### 2.1 Keyword Research Methodology & Tools
-Research was conducted using **Google Keyword Planner**, **SEMrush**, **KWFinder**, and **AnswerThePublic**. Primary focus targets were specifically filtered for **Keyword Difficulty (KD) < 20%** to guarantee early organic indexation.
+Research was conducted using **Google Keyword Planner**, **SEMrush**, **KWFinder**, and **AnswerThePublic**. Primary focus targets emphasize **Keyword Difficulty (KD) < 20%** for rapid organic indexation during the semester timeframe.
 
-### 2.2 Primary & Secondary Keyword Matrix
+### 2.2 Primary & Secondary Keyword Matrix (12–15 Keywords)
 
-| # | Target Keyword | Intent Category | Global Monthly Volume | Keyword Difficulty (KD %) | Avg CPC ($ USD) | Target URL |
-|:---:|---|:---:|:---:|:---:|:---:|---|
-| 1 | `system design decision matrix` | Commercial | 1,900 | **18% (KD < 20)** | $5.10 | `/tools/decision-matrix` |
-| 2 | `qps calculation formula system design` | Informational | 2,100 | **17% (KD < 20)** | $3.20 | `/fundamentals/capacity-estimation` |
-| 3 | `base62 encoding length system design` | Informational | 1,400 | **14% (KD < 20)** | $2.80 | `/case-studies/url-shortener` |
-| 4 | `how to size redis cache for 10 million users` | Calculative | 950 | **19% (KD < 20)** | $4.40 | `/tools/capacity-calculator` |
-| 5 | `sliding window vs token bucket rate limiter java` | Informational | 1,600 | **16% (KD < 20)** | $3.60 | `/case-studies/rate-limiter` |
-| 6 | `system design capacity estimation` | Informational | 5,400 | 32% | $3.80 | `/tools/capacity-calculator` |
-| 7 | `url shortener system design` | Informational | 18,100 | 54% | $3.50 | `/case-studies/url-shortener` |
-| 8 | `distributed caching strategies` | Informational | 4,400 | 38% | $4.50 | `/fundamentals/caching` |
-| 9 | `hld vs lld` | Informational | 14,800 | 24% | $2.10 | `/fundamentals/hld-vs-lld` |
-| 10 | `rate limiter system design` | Informational | 9,900 | 46% | $3.10 | `/case-studies/rate-limiter` |
-| 11 | `system design interview framework` | Informational | 6,600 | 41% | $4.80 | `/interview-prep` |
-| 12 | `best system design courses 2026` | Commercial | 8,100 | 62% | $8.50 | WordPress `/best-courses` |
+| # | Target Keyword | Type | Monthly Search Volume | Keyword Difficulty (KD %) | Avg CPC ($ USD) | Categorized Intent | Target URL |
+|:---:|---|:---:|:---:|:---:|:---:|:---:|---|
+| **1** | `system design decision matrix` | **Primary Focus** | 1,900 | **18% (KD < 20)** | $5.10 | Commercial / Comparative | `/tools/decision-matrix` |
+| **2** | `qps calculation formula system design` | **Primary Focus** | 2,100 | **17% (KD < 20)** | $3.20 | Informational / Utility | `/fundamentals/capacity-estimation` |
+| **3** | `base62 encoding length system design` | **Primary Focus** | 1,400 | **14% (KD < 20)** | $2.80 | Informational | `/case-studies/url-shortener` |
+| **4** | `how to size redis cache for 10 million users` | **Primary Focus** | 950 | **19% (KD < 20)** | $4.40 | Calculative / Utility | `/tools/capacity-calculator` |
+| **5** | `sliding window vs token bucket rate limiter java` | **Primary Focus** | 1,600 | **16% (KD < 20)** | $3.60 | Informational | `/case-studies/rate-limiter` |
+| **6** | `system design capacity estimation` | Secondary | 5,400 | 32% | $3.80 | Informational / Utility | `/tools/capacity-calculator` |
+| **7** | `url shortener system design` | Secondary | 18,100 | 54% | $3.50 | Informational | `/case-studies/url-shortener` |
+| **8** | `distributed caching strategies` | Secondary | 4,400 | 38% | $4.50 | Informational | `/fundamentals/caching` |
+| **9** | `hld vs lld` | Secondary | 14,800 | 24% | $2.10 | Informational | `/fundamentals/hld-vs-lld` |
+| **10** | `rate limiter system design` | Secondary | 9,900 | 46% | $3.10 | Informational | `/case-studies/rate-limiter` |
+| **11** | `system design interview framework` | Secondary | 6,600 | 41% | $4.80 | Informational | `/interview-prep` |
+| **12** | `best system design courses 2026` | Secondary | 8,100 | 62% | $8.50 | Commercial Investigation | WordPress `/best-courses` |
 
 ### 2.3 Long-Tail & Latent Semantic Indexing (LSI) Table
 
-| # | Long-Tail / LSI Term | Monthly Vol | Competition (0–1.0) | Relevance (1–10) | Target Silo URL |
-|:---:|---|:---:|:---:|:---:|---|
-| 1 | `how to calculate read write ratio in system design` | 1,200 | **0.18** | **10 / 10** | `/tools/capacity-calculator` |
-| 2 | `pareto 80 20 rule memory caching estimation` | 850 | **0.15** | **10 / 10** | `/fundamentals/caching` |
-| 3 | `key generation service kgs architecture tinyurl` | 1,450 | **0.22** | **10 / 10** | `/case-studies/url-shortener` |
-| 4 | `sliding window log vs sliding window counter rate limiter` | 780 | **0.16** | **9 / 10** | `/case-studies/rate-limiter` |
-| 5 | `consistent hashing hash ring rebalancing node failure` | 1,100 | **0.24** | **9 / 10** | `/fundamentals/consistent-hashing` |
-| 6 | `cassandra vs scylladb write throughput benchmarks` | 920 | **0.29** | **8 / 10** | `/tools/decision-matrix` |
-| 7 | `system design interview 45 minute breakdown template` | 1,800 | **0.27** | **10 / 10** | `/interview-prep/beginners` |
+| # | Long-Tail / LSI Term | Monthly Vol | Competition (0–1.0) | Relevance (1–10) | Search Intent | Target Silo URL |
+|:---:|---|:---:|:---:|:---:|:---:|---|
+| **1** | `how to calculate read write ratio in system design` | 1,200 | **0.18 (Low)** | **10 / 10** | Informational | `/tools/capacity-calculator` |
+| **2** | `pareto 80 20 rule memory caching estimation` | 850 | **0.15 (Low)** | **10 / 10** | Informational | `/fundamentals/caching` |
+| **3** | `key generation service kgs architecture tinyurl` | 1,450 | **0.22 (Low)** | **10 / 10** | Informational | `/case-studies/url-shortener` |
+| **4** | `sliding window log vs sliding window counter rate limiter` | 780 | **0.16 (Low)** | **9 / 10** | Informational | `/case-studies/rate-limiter` |
+| **5** | `consistent hashing hash ring rebalancing node failure` | 1,100 | **0.24 (Low)** | **9 / 10** | Informational | `/fundamentals/consistent-hashing` |
+| **6** | `cassandra vs scylladb write throughput benchmarks` | 920 | **0.29 (Low)** | **8 / 10** | Commercial | `/tools/decision-matrix` |
+| **7** | `system design interview 45 minute breakdown template` | 1,800 | **0.27 (Low)** | **10 / 10** | Informational | `/interview-prep/beginners` |
 
 ---
 
@@ -75,29 +76,29 @@ Research was conducted using **Google Keyword Planner**, **SEMrush**, **KWFinder
 
 ### 3.1 Deep-Dive SERP Breakdown: Query `"URL Shortener System Design"`
 1. **Position Zero (Featured Snippet):** 52-word paragraph + bullet list from GeeksforGeeks explaining Base62 encoding and Key Generation Service.
-2. **People Also Ask (PAA):**
-   - *How many characters are needed in a 7-character Base62 hash?* (Answer: 62^7 = 3.52 Trillion).
+2. **People Also Ask (PAA) Box:**
+   - *How many characters are needed in a 7-character Base62 hash?* (Answer: 62^7 = 3.52 Trillion combinations).
    - *Why use Base62 instead of Base64?* (Answer: Avoids reserved URL characters '+' and '/').
    - *Which database is best for a URL shortener?* (Answer: Wide-column NoSQL / ScyllaDB).
 3. **Video Carousel:** 3 YouTube videos (Gaurav Sen, NeetCode, ByteByteGo).
-4. **Top Organic Blue Links:**
-   - Rank 1: GeeksforGeeks (2,850 words | CWV: 42/100, ad-cluttered)
-   - Rank 2: System Design Primer GitHub (4,100 words | CWV: 92/100, static markdown)
-   - Rank 3: ByteByteGo (1,950 words | CWV: 68/100, paywalled)
+4. **Top Organic Blue Links Breakdown:**
+   - Rank 1: GeeksforGeeks (2,850 words | Lighthouse Mobile: 42/100, ad-cluttered)
+   - Rank 2: System Design Primer GitHub (4,100 words | Lighthouse: 92/100, static markdown)
+   - Rank 3: ByteByteGo (1,950 words | Lighthouse: 68/100, paywalled)
 
-### 3.2 Snippet Capture Formulation
-To capture Position Zero, our `/case-studies/url-shortener` page incorporates an exact 55-word summary box beneath an `<h2>How does a URL Shortener Work?</h2>` header, structured specifically for Google's featured snippet parser.
+### 3.2 Featured Snippet Targeting Formulation
+To capture Position Zero, our `/case-studies/url-shortener` page incorporates an exact 55-word summary box beneath an `<h2>How does a URL Shortener Work?</h2>` header, formatted specifically for Google's featured snippet parser.
 
 ---
 
 ## 4. Competitor Analysis & Content Gap (2 Marks)
 
 ### 4.1 Two Direct Competitors Analyzed
-1. **ByteByteGo (`bytebytego.com`):** DR 58 | 480k monthly organic visits | 14,200 backlinks.
-2. **Educative.io (`educative.io`):** DR 76 | 1.35M monthly organic visits | 195,000 backlinks.
+1. **ByteByteGo (`bytebytego.com`):** Domain Rating (DR) 58 | ~480k monthly visits | 14,200 backlinks.
+2. **Educative.io (`educative.io`):** Domain Rating (DR) 76 | ~1.35M monthly visits | 195,000 backlinks.
 
 ### 4.2 Content Gap Identification
-- **Severe Paywalls:** Over 90% of in-depth solutions are gated behind $15/mo to $200/yr subscriptions. Our platform offers open-access 24-step blueprints.
+- **Heavy Paywalls:** Over 90% of in-depth solutions are gated behind $15/mo to $200/yr subscriptions. Our platform offers open-access 24-step blueprints.
 - **Zero Interactivity:** Competitors quote static, frozen traffic assumptions. Our platform provides dynamic input sliders for real-time calculation.
 - **Outdated Assumptions:** Competitors still quote 2016 numbers and legacy MySQL master-slave setups. We implement modern 2026 architectures (UUIDv7, Redis 7 Lua scripts, ScyllaDB).
 - **No Runnable APIs:** Competitors present theoretical diagrams without schemas. We provide runnable OpenAPI 3.0 / Swagger UI contracts.
@@ -106,7 +107,7 @@ To capture Position Zero, our `/case-studies/url-shortener` page incorporates an
 
 ## 5. Keyword-to-Page/Content Mapping (2 Marks)
 
-### 5.1 Site Taxonomy & Cannibalization Prevention Matrix
+### 5.1 Site Hierarchy & Cannibalization Prevention Matrix
 
 | Page URL | Primary Focus Keyword | Secondary Keywords | Search Intent | Cannibalization Prevention Directive |
 |---|---|---|:---:|---|
@@ -191,7 +192,7 @@ x-powered-by: PHP/8.2.18
 
 ## 9. Documentation, Proof & Evidence Quality (2 Marks)
 
-### 9.1 Evidence Artifacts Included in Submission
+### 9.1 Evidence Artifacts Included in Report
 1. **Figure 1:** Cloudflare DNS Records table with Orange Cloud (Proxied) icons.
 2. **Figure 2:** `whatsmydns.net` global propagation map showing green checkmarks across 20+ countries.
 3. **Figure 3:** Cloudflare SSL/TLS Full (Strict) active encryption badge.
@@ -207,9 +208,9 @@ x-powered-by: PHP/8.2.18
 
 ## 10. Milestone I Demonstration & Timely Submission (2 Marks)
 
-### 10.1 Walkthrough Script
+### 10.1 Live Walkthrough Demonstration Flow
 - **Live Demo Link:** `https://system-design-lab-topaz.vercel.app`
-- **Demonstration Flow:**
+- **Presentation Sequence:**
   1. Introduce the quantitative SEO problem and target personas.
   2. Walk through the KD < 20 keyword matrix and PAA snippet targeting.
   3. Demonstrate the live, client-side Capacity Calculator computing real-time QPS and storage footprint.
