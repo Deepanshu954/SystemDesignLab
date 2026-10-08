@@ -1,0 +1,243 @@
+{
+  "timestamp": "2026-10-08T17:16:38Z",
+  "overall_health_score": 35.4,
+  "total_audited_pages": 6,
+  "total_errors": 0,
+  "total_warnings": 31,
+  "total_passed": 17,
+  "reports": [
+    {
+      "url": "https://system-design-lab-topaz.vercel.app",
+      "status_code": 200,
+      "latency_ms": 146.82,
+      "errors": [],
+      "warnings": [
+        "Title exceeds 65 chars (73 chars, risk of SERP truncation): 'System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation'",
+        "Meta description exceeds 165 chars (185 chars, snippet truncation risk)",
+        "Missing rel='canonical' link tag",
+        "Incomplete OpenGraph tags: missing og:image"
+      ],
+      "passed": [
+        "Singular <h1> heading: 'Master System Design & Backend Engineering...'",
+        "Structured subheadings: 2 H2s, 11 H3s",
+        "Schema.org JSON-LD validated: Organization",
+        "Fast TTFB latency: 146.82ms (< 300ms target)"
+      ],
+      "metrics": {
+        "title": "System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation",
+        "title_length": 73,
+        "meta_description": "An authoritative system design knowledge hub for BTech students and backend software engineers. 24-step flagship case studies, interactive capacity estimation, and interview blueprints.",
+        "meta_desc_length": 185,
+        "h1_count": 1,
+        "h1_tags": [
+          "Master System Design & Backend Engineering"
+        ],
+        "h2_count": 2,
+        "h3_count": 11,
+        "canonical": null,
+        "og_complete": false,
+        "json_ld_count": 1,
+        "schema_types": [
+          "Organization"
+        ],
+        "total_images": 0,
+        "missing_alt_count": 0
+      }
+    },
+    {
+      "url": "https://system-design-lab-topaz.vercel.app/case-studies",
+      "status_code": 200,
+      "latency_ms": 130.07,
+      "errors": [],
+      "warnings": [
+        "Title exceeds 65 chars (73 chars, risk of SERP truncation): 'System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation'",
+        "Meta description exceeds 165 chars (185 chars, snippet truncation risk)",
+        "No <h2> headings found. Logical content hierarchy recommended.",
+        "Missing rel='canonical' link tag",
+        "Incomplete OpenGraph tags: missing og:image"
+      ],
+      "passed": [
+        "Singular <h1> heading: 'Flagship System Design Case Studies...'",
+        "Schema.org JSON-LD validated: Organization, BreadcrumbList",
+        "Fast TTFB latency: 130.07ms (< 300ms target)"
+      ],
+      "metrics": {
+        "title": "System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation",
+        "title_length": 73,
+        "meta_description": "An authoritative system design knowledge hub for BTech students and backend software engineers. 24-step flagship case studies, interactive capacity estimation, and interview blueprints.",
+        "meta_desc_length": 185,
+        "h1_count": 1,
+        "h1_tags": [
+          "Flagship System Design Case Studies"
+        ],
+        "h2_count": 0,
+        "h3_count": 3,
+        "canonical": null,
+        "og_complete": false,
+        "json_ld_count": 2,
+        "schema_types": [
+          "Organization",
+          "BreadcrumbList"
+        ],
+        "total_images": 0,
+        "missing_alt_count": 0
+      }
+    },
+    {
+      "url": "https://system-design-lab-topaz.vercel.app/fundamentals",
+      "status_code": 200,
+      "latency_ms": 384.8,
+      "errors": [],
+      "warnings": [
+        "Title exceeds 65 chars (73 chars, risk of SERP truncation): 'System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation'",
+        "Meta description exceeds 165 chars (185 chars, snippet truncation risk)",
+        "No <h2> headings found. Logical content hierarchy recommended.",
+        "Missing rel='canonical' link tag",
+        "Incomplete OpenGraph tags: missing og:image",
+        "Elevated TTFB response time: 384.8ms"
+      ],
+      "passed": [
+        "Singular <h1> heading: 'System Design Fundamentals...'",
+        "Schema.org JSON-LD validated: Organization, BreadcrumbList"
+      ],
+      "metrics": {
+        "title": "System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation",
+        "title_length": 73,
+        "meta_description": "An authoritative system design knowledge hub for BTech students and backend software engineers. 24-step flagship case studies, interactive capacity estimation, and interview blueprints.",
+        "meta_desc_length": 185,
+        "h1_count": 1,
+        "h1_tags": [
+          "System Design Fundamentals"
+        ],
+        "h2_count": 0,
+        "h3_count": 3,
+        "canonical": null,
+        "og_complete": false,
+        "json_ld_count": 2,
+        "schema_types": [
+          "Organization",
+          "BreadcrumbList"
+        ],
+        "total_images": 0,
+        "missing_alt_count": 0
+      }
+    },
+    {
+      "url": "https://system-design-lab-topaz.vercel.app/tools/capacity-calculator",
+      "status_code": 200,
+      "latency_ms": 401.21,
+      "errors": [],
+      "warnings": [
+        "Title exceeds 65 chars (73 chars, risk of SERP truncation): 'System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation'",
+        "Meta description exceeds 165 chars (185 chars, snippet truncation risk)",
+        "Missing rel='canonical' link tag",
+        "Incomplete OpenGraph tags: missing og:image",
+        "Elevated TTFB response time: 401.21ms"
+      ],
+      "passed": [
+        "Singular <h1> heading: 'System Capacity & Sizing Calculator...'",
+        "Structured subheadings: 2 H2s, 3 H3s",
+        "Schema.org JSON-LD validated: Organization, BreadcrumbList"
+      ],
+      "metrics": {
+        "title": "System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation",
+        "title_length": 73,
+        "meta_description": "An authoritative system design knowledge hub for BTech students and backend software engineers. 24-step flagship case studies, interactive capacity estimation, and interview blueprints.",
+        "meta_desc_length": 185,
+        "h1_count": 1,
+        "h1_tags": [
+          "System Capacity & Sizing Calculator"
+        ],
+        "h2_count": 2,
+        "h3_count": 3,
+        "canonical": null,
+        "og_complete": false,
+        "json_ld_count": 2,
+        "schema_types": [
+          "Organization",
+          "BreadcrumbList"
+        ],
+        "total_images": 0,
+        "missing_alt_count": 0
+      }
+    },
+    {
+      "url": "https://system-design-lab-topaz.vercel.app/tools/decision-matrix",
+      "status_code": 200,
+      "latency_ms": 389.81,
+      "errors": [],
+      "warnings": [
+        "Title exceeds 65 chars (73 chars, risk of SERP truncation): 'System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation'",
+        "Meta description exceeds 165 chars (185 chars, snippet truncation risk)",
+        "No <h2> headings found. Logical content hierarchy recommended.",
+        "Missing rel='canonical' link tag",
+        "Incomplete OpenGraph tags: missing og:image",
+        "Elevated TTFB response time: 389.81ms"
+      ],
+      "passed": [
+        "Singular <h1> heading: 'Architecture Decision Matrix...'",
+        "Schema.org JSON-LD validated: Organization, BreadcrumbList"
+      ],
+      "metrics": {
+        "title": "System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation",
+        "title_length": 73,
+        "meta_description": "An authoritative system design knowledge hub for BTech students and backend software engineers. 24-step flagship case studies, interactive capacity estimation, and interview blueprints.",
+        "meta_desc_length": 185,
+        "h1_count": 1,
+        "h1_tags": [
+          "Architecture Decision Matrix"
+        ],
+        "h2_count": 0,
+        "h3_count": 4,
+        "canonical": null,
+        "og_complete": false,
+        "json_ld_count": 2,
+        "schema_types": [
+          "Organization",
+          "BreadcrumbList"
+        ],
+        "total_images": 0,
+        "missing_alt_count": 0
+      }
+    },
+    {
+      "url": "https://system-design-lab-topaz.vercel.app/interview-prep",
+      "status_code": 200,
+      "latency_ms": 411.37,
+      "errors": [],
+      "warnings": [
+        "Title exceeds 65 chars (73 chars, risk of SERP truncation): 'System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation'",
+        "Meta description exceeds 165 chars (185 chars, snippet truncation risk)",
+        "Missing rel='canonical' link tag",
+        "Incomplete OpenGraph tags: missing og:image",
+        "Elevated TTFB response time: 411.37ms"
+      ],
+      "passed": [
+        "Singular <h1> heading: 'System Design Interview Questions & Solutions...'",
+        "Structured subheadings: 1 H2s, 4 H3s",
+        "Schema.org JSON-LD validated: Organization, BreadcrumbList"
+      ],
+      "metrics": {
+        "title": "System Design Lab \u2014 High-Level Design, Case Studies & Capacity Estimation",
+        "title_length": 73,
+        "meta_description": "An authoritative system design knowledge hub for BTech students and backend software engineers. 24-step flagship case studies, interactive capacity estimation, and interview blueprints.",
+        "meta_desc_length": 185,
+        "h1_count": 1,
+        "h1_tags": [
+          "System Design Interview Questions & Solutions"
+        ],
+        "h2_count": 1,
+        "h3_count": 4,
+        "canonical": null,
+        "og_complete": false,
+        "json_ld_count": 2,
+        "schema_types": [
+          "Organization",
+          "BreadcrumbList"
+        ],
+        "total_images": 0,
+        "missing_alt_count": 0
+      }
+    }
+  ]
+}

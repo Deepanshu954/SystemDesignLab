@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://systemdesignlab.dev/#website",
+  "url": "https://systemdesignlab.dev",
+  "name": "System Design Lab",
+  "publisher": {
+    "@id": "https://systemdesignlab.dev/#organization"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://systemdesignlab.dev/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}

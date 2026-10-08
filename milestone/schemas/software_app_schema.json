@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "System Design Capacity Sizing Calculator",
+  "operatingSystem": "All (Web-based)",
+  "applicationCategory": "DeveloperApplication",
+  "url": "https://systemdesignlab.dev/tools/capacity-calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "description": "Real-time client-side quantitative estimation engine computing QPS, storage footprint, network bandwidth, and Redis memory cache sizing for scalable distributed architectures.",
+  "featureList": [
+    "Daily Active Users (DAU) to Peak QPS sizing",
+    "Read-to-Write traffic ratio simulation",
+    "3-year storage growth modeling with metadata overhead",
+    "Pareto 80/20 RAM cache memory requirement calculator"
+  ]
+}

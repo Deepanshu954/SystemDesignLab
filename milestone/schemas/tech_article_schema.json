@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Design a Distributed URL Shortener (TinyURL) \u2014 24-Step Blueprint",
+  "description": "Comprehensive production architecture for a URL shortening service processing 500M monthly redirects with sub-10ms latency using Base62 encoding, KGS, and ScyllaDB.",
+  "image": "https://systemdesignlab.dev/images/case-studies/url-shortener-hero.png",
+  "author": {
+    "@type": "Organization",
+    "name": "System Design Lab Editorial Team",
+    "url": "https://systemdesignlab.dev/about"
+  },
+  "publisher": {
+    "@id": "https://systemdesignlab.dev/#organization"
+  },
+  "datePublished": "2026-09-15T00:00:00+00:00",
+  "dateModified": "2026-10-08T12:00:00+00:00",
+  "mainEntityOfPage": "https://systemdesignlab.dev/case-studies/url-shortener",
+  "proficiencyLevel": "Intermediate",
+  "dependencies": "Base62 Encoding, Redis 7 Cluster, Distributed Key Generation Service (KGS), ScyllaDB"
+}

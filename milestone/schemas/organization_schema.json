@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://systemdesignlab.dev/#organization",
+  "name": "System Design Lab",
+  "url": "https://systemdesignlab.dev",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://systemdesignlab.dev/logo.png",
+    "width": 512,
+    "height": 512
+  },
+  "description": "An interactive distributed systems and capacity sizing platform for software engineers.",
+  "sameAs": [
+    "https://github.com/deepanshu954/SystemDesignLab",
+    "https://twitter.com/systemdesignlab"
+  ],
+  "knowsAbout": [
+    "System Design",
+    "Distributed Systems",
+    "Capacity Estimation",
+    "High Level Design",
+    "Software Architecture"
+  ]
+}

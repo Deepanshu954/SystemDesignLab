@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does a distributed URL shortener work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A distributed URL shortener shortens long URLs into unique 7-character Base62 keys (yielding 3.52 trillion unique combinations). The system uses an API Gateway for rate limiting, a distributed Key Generation Service (KGS) to avoid write collisions, a Redis caching cluster for sub-10ms redirects, and partitioned wide-column storage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why use Base62 encoding instead of Base64 for URL shortening?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Base62 uses [0-9, a-z, A-Z], which are completely URL-safe characters. Base64 contains '+' and '/', which carry reserved semantic meanings in HTTP URLs and query strings, requiring troublesome URL-encoding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you calculate cache memory for 10 million daily active users?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Applying the Pareto 80/20 rule, 20% of the daily read requests generate 80% of total cache traffic. For 100M daily read requests of 500 bytes each (50 GB total), caching 20% requires approximately 10 GB of RAM."
+      }
+    }
+  ]
+}
