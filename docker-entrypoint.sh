@@ -102,7 +102,7 @@ BACKEND_PID=$!
 
 # Wait for backend to be ready
 echo "==> [BACKEND] Waiting for backend readiness..."
-for i in $(seq 1 45); do
+for i in $(seq 1 60); do
     if wget -q --spider "http://127.0.0.1:${BACKEND_PORT}/actuator/health" 2>/dev/null; then
         echo "==> [BACKEND] Backend is healthy and ready!"
         break

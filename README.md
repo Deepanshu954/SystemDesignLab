@@ -73,12 +73,22 @@ docker-compose up -d --build
 
 ---
 
-## 📦 Single All-in-One Docker Image (Zero Config)
+## 📦 Single All-in-One Docker Image (Standalone `seo`)
 
-Run the entire full-stack platform (PostgreSQL 16 + Spring Boot + Next.js with reverse proxy) from a **single self-contained Docker container**:
+Run the entire full-stack platform (PostgreSQL 16 + Spring Boot + Next.js with internal reverse proxy) from a **single self-contained Docker container**:
 
+### Option A: Run Pre-built Image
 ```bash
 docker run -d -p 3000:3000 --name systemdesignlab deepanshu954/systemdesignlab:latest
+```
+
+### Option B: Build & Run Local Standalone Image (`seo`)
+```bash
+# Build standalone image
+docker build -t seo -f Dockerfile.seo .
+
+# Run standalone container
+docker run -d -p 3000:3000 --name seo-app seo
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser. All API requests (`/api/v1/*`), health checks (`/actuator/health`), and Swagger docs (`/swagger-ui/*`) are handled automatically by the internal reverse proxy.

@@ -21,9 +21,13 @@ public class CaseStudyService {
     }
 
     public List<CaseStudySummaryResponse> getCaseStudies(String category, String difficulty, String query) {
+        String cleanCategory = (category != null && !category.isBlank()) ? category.trim() : null;
+        String cleanDifficulty = (difficulty != null && !difficulty.isBlank()) ? difficulty.trim() : null;
+        String cleanQuery = (query != null && !query.isBlank()) ? query.trim() : null;
+
         List<CaseStudy> list;
-        if (category != null || difficulty != null || query != null) {
-            list = caseStudyRepository.searchCaseStudies(category, difficulty, query);
+        if (cleanCategory != null || cleanDifficulty != null || cleanQuery != null) {
+            list = caseStudyRepository.searchCaseStudies(cleanCategory, cleanDifficulty, cleanQuery);
         } else {
             list = caseStudyRepository.findByPublishedTrueOrderByCreatedAtAsc();
         }

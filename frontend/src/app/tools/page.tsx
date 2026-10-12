@@ -105,7 +105,7 @@ export default function ToolsIndexPage() {
               Latency Numbers Every Systems Engineer Must Know
             </h2>
             <p className="text-sm text-slate-400">
-              Essential hardware latency scale based on Jeff Dean and Peter Norvig's computer latency hierarchy.
+              Essential hardware latency scale based on Jeff Dean and Peter Norvig&apos;s computer latency hierarchy.
             </p>
           </div>
         </div>

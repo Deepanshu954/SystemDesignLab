@@ -39,6 +39,14 @@ class CaseStudyControllerTest {
     }
 
     @Test
+    void getCaseStudies_WithBlankFilterParams_ReturnsAll() throws Exception {
+        mockMvc.perform(get("/api/v1/case-studies?category=&difficulty=&search="))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.success").value(true))
+                .andExpect(jsonPath("$.data.length()").value(4));
+    }
+
+    @Test
     void getCaseStudyBySlug_ExistingSlug_ReturnsDetail() throws Exception {
         mockMvc.perform(get("/api/v1/case-studies/url-shortener"))
                 .andExpect(status().isOk())

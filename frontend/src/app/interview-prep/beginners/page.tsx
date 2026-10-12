@@ -49,7 +49,7 @@ export default function BeginnersInterviewPrepPage() {
       <div className="mt-6 mb-10 pb-8 border-b border-slate-800">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold mb-4">
           <BookOpen className="w-3.5 h-3.5" />
-          The Beginner's Comprehensive Playbook
+          The Beginner&apos;s Comprehensive Playbook
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
           System Design for Beginners: The 45-Minute Framework
@@ -70,7 +70,7 @@ export default function BeginnersInterviewPrepPage() {
             <h2 className="text-2xl font-bold text-white">Step 1: Clarify Scope & Functional Requirements (5 Mins)</h2>
           </div>
           <p className="text-slate-300 text-sm leading-relaxed mb-4">
-            System design interview prompts are intentionally ambiguous (e.g. <em>"Design TinyURL"</em> or <em>"Design Twitter"</em>). Your primary job in the first 5 minutes is asking clarifying questions to define the system boundaries.
+            System design interview prompts are intentionally ambiguous (e.g. <em>&ldquo;Design TinyURL&rdquo;</em> or <em>&ldquo;Design Twitter&rdquo;</em>). Your primary job in the first 5 minutes is asking clarifying questions to define the system boundaries.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
             <div className="p-4 rounded-xl border border-slate-800 bg-slate-950/60">
